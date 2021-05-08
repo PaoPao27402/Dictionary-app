@@ -10,11 +10,11 @@ export default function App() {
       </main>
       </div>
       <footer>
-      <p class="coded">
+      <div className="coded">
       coded by <strong> PaoPao </strong>
          <a href="https://github.com/PaoPao27402/weather-react/find/master">
         open source on GitHub</a>
-    </p>
+    </div>
       </footer>
     </div>
   );
