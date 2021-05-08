@@ -32,10 +32,10 @@ box-shadow:  19px 19px 37px #d1d0d0,
              -19px -19px 37px #ffffff;
 }
 
-footer{
-width: 150px;
+.coded{
+width:  320px;
+height: 30px;
 margin-top: 12px;
-align-items: center;
 justify-content: center;
 border-radius: 16px;
 background: #eeecec;

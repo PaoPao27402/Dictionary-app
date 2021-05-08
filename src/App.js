@@ -9,8 +9,12 @@ export default function App() {
         <Search />
       </main>
       </div>
-      <footer className="text-centert">
-        Coded by PaoPao
+      <footer>
+      <p class="coded">
+      coded by <strong> PaoPao </strong>
+         <a href="https://github.com/PaoPao27402/weather-react/find/master">
+        open source on GitHub</a>
+    </p>
       </footer>
     </div>
   );
