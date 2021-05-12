@@ -1,3 +1,17 @@
 .dictionary{
-    margin-top: 15px;
+    margin-top: -300px;
   }
+
+  input{
+    border: none;
+    outline: none;
+    color: #555;
+    background: none;
+  }
+
+  button, input, optgroup, select, textarea{
+    border-radius: 8px;
+    box-shadow: inset 5px 5px 5px #cbced1,
+            inset -5px -5px 5px #ffffff;
+  }
+ 
