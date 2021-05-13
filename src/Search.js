@@ -8,7 +8,6 @@ export default function Search(){
     let [results, setResults] = useState(null);
 
     function handleResponse(response){
-        console.log(response.data[0]);
         setResults(response.data[0]);
 
     }
@@ -27,8 +26,10 @@ export default function Search(){
 
     return(
         <div className="dictionary">
+         <p>Search a Word</p>   
          <form onSubmit={search}>   
          <input type="search" onChange={handleKeywordChange}/>
+         <input className="button" type="submit" value="Search" />
          </form>  
          <Results results={results} />
         </div>

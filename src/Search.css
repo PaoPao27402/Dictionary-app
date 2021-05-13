@@ -9,9 +9,22 @@
     background: none;
   }
 
-  button, input, optgroup, select, textarea{
+   input, optgroup, select, textarea{
     border-radius: 8px;
     box-shadow: inset 3px 3px 3px #cbced1,
             inset -3px -3px 3px #ffffff;
+  }
+
+  .button{
+    color: #5a84a2;
+    margin-left: 8px;
+    box-shadow: 5px 5px 10px #e2e0e0,
+               -5px -5px 10px #faf8f8;
+
+  }
+  .button:hover{
+    box-shadow: inset 3px 3px 3px #cbced1,
+            inset -3px -3px 3px #ffffff;
+
   }
  
