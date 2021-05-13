@@ -7,6 +7,9 @@ export default function Results(props){
             <h1>
              {props.results.word}   
             </h1>
+            {props.results.map(function(meaning, index){
+               return meaning.definitions[0].definition; 
+            })}
         </div> ); 
     } else {
         return null;
