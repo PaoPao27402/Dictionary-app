@@ -12,7 +12,7 @@ export default function App() {
       <footer>
       <div className="coded">
       coded by <strong> PaoPao </strong>
-         <a href="https://github.com/PaoPao27402/weather-react/find/master">
+         <a href="https://github.com/PaoPao27402/Dictionary-app/tree/main/src">
         open source on GitHub</a>
     </div>
       </footer>

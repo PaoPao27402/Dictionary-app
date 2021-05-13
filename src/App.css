@@ -33,8 +33,7 @@ box-shadow:  19px 19px 37px #d1d0d0,
 }
 
 .coded{
-width:  320px;
-height: 30px;
+  font-size: 14px;
 margin-top: 12px;
 border-radius: 8px;
 background: #eeecec;
