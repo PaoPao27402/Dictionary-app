@@ -4,11 +4,11 @@ import './Search.css';
 import Results from "./Results";
 
 export default function Search(){
-    let [keyword, setKeyword] = useState("")
+    let [keyword, setKeyword] = useState("");
+    let [results, setResults] = useState(null);
 
     function handleResponse(response){
         console.log(response.data[0]);
-        console.log(response.data[0].meanings[0].definitions[0].definition);
 
     }
 

@@ -36,11 +36,10 @@ box-shadow:  19px 19px 37px #d1d0d0,
 width:  320px;
 height: 30px;
 margin-top: 12px;
-justify-content: center;
-border-radius: 16px;
+border-radius: 8px;
 background: #eeecec;
-box-shadow:  19px 19px 26px #d1d0d0,
-             -19px -19px 26px #ffffff;
+box-shadow: inset 3px 3px 3px #cbced1,
+            inset -3px -3px 3px #ffffff;
 }
 
 
