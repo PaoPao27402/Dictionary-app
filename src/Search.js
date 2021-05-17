@@ -27,7 +27,7 @@ export default function Search(){
     return(
         <div className="dictionary">
          <h1>Search a Word</h1>   
-         <form onSubmit={search}>   
+         <form className="submit" onSubmit={search}>   
          <input type="search" onChange={handleKeywordChange}/>
          <input className="button" type="submit" value="Search" />
          </form>  
