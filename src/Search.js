@@ -32,7 +32,7 @@ export default function Search(){
          <h1>Search a Word</h1>   
          <form className="submit" onSubmit={handleSubmit}>   
          <input type="search" onChange={handleKeywordChange}/>
-         <input className="button" type="submit" value="Search" />
+         <input className="button" type="submit" value="🔍" />
          </form>
          <div className="hint">
              suggested words: sunset, yoga, wine, pine....
