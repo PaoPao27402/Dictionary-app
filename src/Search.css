@@ -16,7 +16,7 @@
   }
 
   .button{
-    color: #1eae98;
+    color:#233e8b;
     margin-left: 8px;
     display: inline-block;
     box-shadow: 5px 5px 10px #e2e0e0,
@@ -48,6 +48,7 @@
     padding-top: 3px;
   }
   p{
+    color: #3d84b8;
     font-size: 12px;
     margin: 4px;
     display: inline-block;
