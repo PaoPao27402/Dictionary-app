@@ -36,11 +36,13 @@
   }
 
   h2{
+    color:#233e8b;
     font-size: 20px;
     margin-top: 10px;
   }
 
   h3{
+    color:#233e8b;
     font-size: 15px;
     text-align: center;
     padding-top: 3px;
@@ -58,6 +60,7 @@
   }
 
   .hint{
+    color:#233e8b;
     font-size: 10px;
     margin-top: 2px;
     display: flex;
