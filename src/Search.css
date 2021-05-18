@@ -16,7 +16,7 @@
   }
 
   .button{
-    color: #5a84a2;
+    color: #1eae98;
     margin-left: 8px;
     display: inline-block;
     box-shadow: 5px 5px 10px #e2e0e0,
@@ -30,6 +30,7 @@
   }
  
   h1{
+    color:#233e8b;
     font-size: 20px;
     text-align: center;
   }
@@ -42,11 +43,11 @@
   h3{
     font-size: 15px;
     text-align: center;
-    padding: 5px;
+    padding-top: 3px;
   }
   p{
     font-size: 12px;
-    margin: 8px;
+    margin: 4px;
     display: inline-block;
   }
 
@@ -55,6 +56,29 @@
     box-shadow: inset 3px 3px 3px #cbced1,
                 inset -3px -3px 3px #ffffff;
   }
+
+  .hint{
+    font-size: 10px;
+    margin-top: 2px;
+    display: flex;
+    padding-left: 32px;
+  
+  }
+
+  .Phonetic{
+    margin-bottom: 8px;
+    text-align: center;
+    color: #1eae98;
+    margin-right: 200px;
+    box-shadow: 5px 5px 10px #e2e0e0,
+               -5px -5px 10px #faf8f8;
+  }
+
+  form.submit{
+   display: flex;
+   justify-content: center;
+  }
+  
 
 
 

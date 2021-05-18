@@ -12,12 +12,15 @@ export default function Search(){
 
     }
 
-    function search(event){
-        event.preventDefault();
+    function search(){
+     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
+     axios.get(apiUrl).then(handleResponse);
 
-      let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
-      console.log(apiUrl);
-     axios.get(apiUrl).then(handleResponse);  
+    }
+
+    function handleSubmit(event){
+        event.preventDefault();
+        search()
     }
 
     function handleKeywordChange(event){
@@ -27,10 +30,13 @@ export default function Search(){
     return(
         <div className="dictionary">
          <h1>Search a Word</h1>   
-         <form className="submit" onSubmit={search}>   
+         <form className="submit" onSubmit={handleSubmit}>   
          <input type="search" onChange={handleKeywordChange}/>
          <input className="button" type="submit" value="Search" />
-         </form>  
+         </form>
+         <div className="hint">
+             suggested words: sunset, yoga, wine, pine....
+        </div>  
          <Results results={results} />
         </div>
         
