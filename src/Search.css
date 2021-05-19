@@ -47,7 +47,9 @@
     font-size: 15px;
     text-align: center;
     padding-top: 3px;
+    margin: 8px;
   }
+
   p{
     color: #3d84b8;
     font-size: 12px;
