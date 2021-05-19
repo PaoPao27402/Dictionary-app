@@ -19,8 +19,8 @@ body{
 
 .container {
 display: flex;
-height: 680px;
-width: 330px;
+height: 715px;
+width: 355px;
 align-items: center;
 justify-content: center;
 border-radius: 36px;
@@ -31,6 +31,8 @@ box-shadow:  19px 19px 37px #d1d0d0,
 
 .coded{
 font-size: 14px;
+padding: 3px;
+color: rgb(101, 95, 95);
 margin-top: 12px;
 text-align: center;
 border-radius: 8px;
