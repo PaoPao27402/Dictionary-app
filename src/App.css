@@ -21,7 +21,6 @@ body{
 display: flex;
 height: 715px;
 width: 355px;
-align-items: center;
 justify-content: center;
 border-radius: 36px;
 background: #eeecec;
