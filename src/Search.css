@@ -34,7 +34,6 @@
     font-size: 20px;
     margin-top: 8px;
     text-align: center;
-    font-style: italic;
   }
 
   h2{
@@ -70,6 +69,8 @@
     color:#233e8b;
     font-size: 10px;
     margin-top: 2px;
+    display: flex;
+    justify-content: center;
   }
 
   .Phonetic {

@@ -29,7 +29,7 @@ export default function Search(){
 
     return(
         <div className="dictionary">
-         <h1>Search a Word</h1>   
+         <h1>📖 Dictionary Search</h1>   
          <form className="submit" onSubmit={handleSubmit}>   
          <input type="search" onChange={handleKeywordChange}/>
          <input className="button" type="submit" value="🔍" />
