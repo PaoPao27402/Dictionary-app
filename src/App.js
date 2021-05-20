@@ -14,7 +14,7 @@ export default function App() {
       coded by <strong> PaoPao </strong>
          <a href="https://github.com/PaoPao27402/Dictionary-app/tree/main/src">
         open source on GitHub</a>
-    </div>
+     </div>
       </footer>
     </div>
   );
