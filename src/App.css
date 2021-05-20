@@ -19,7 +19,7 @@ body{
 
 .container {
 display: flex;
-min-height: 715px;
+min-height: 700px;
 width: 355px;
 justify-content: center;
 border-radius: 36px;
